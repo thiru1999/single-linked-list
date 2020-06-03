@@ -21,7 +21,7 @@ void reverse(){  //reverse the linked list
 		prev=current;
 		current=next;
 	}
-	head=prev;
+	head=prev; 
 }
 void delete(int n2){        //delete a particular n2 node 
 	struct node* temp1=head;
