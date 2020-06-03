@@ -37,7 +37,7 @@ void delete(int n2){        //delete a particular n2 node
 		temp1->link=temp2->link;
 		free(temp2);
 	}
-}	
+}	 
 		
 void insert(int x){                                             //insert a value to the linked list 
 	struct node*temp=(struct node*)malloc(sizeof(struct node));
